@@ -12,7 +12,7 @@ import {
   Icon,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, ChatIcon } from '@chakra-ui/icons'
 
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -20,7 +20,7 @@ import Paragraph from '../components/paragraph'
 const Page = () => {
   return (
     <Container>
-      <Box display={{ md: 'flex' }}>
+      <Box display={{ md: 'flex' }} my={15}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Vitor Hugo Nakai
@@ -62,6 +62,26 @@ const Page = () => {
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
+            </Button>
+          </NextLink>
+        </Box>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h1" variant="section-title">
+          What doing Vitor recently?
+        </Heading>
+
+        <Paragraph>
+          He was working on full-time job as Developer in JN Moura. But recently
+          he started to stream at night on Twitch, playing League of legends and
+          New Word.
+        </Paragraph>
+
+        <Box align="left" my={4}>
+          <NextLink href="/">
+            <Button rightIcon={<ChatIcon />} colorScheme="teal">
+              My Twitch
             </Button>
           </NextLink>
         </Box>
