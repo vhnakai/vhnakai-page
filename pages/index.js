@@ -75,7 +75,7 @@ const Page = () => {
         <Paragraph mb={4}>
           He's been working on full-time job as Developer in JN Moura. But
           recently he started to stream at night on Twitch, playing League of
-          legends and New Word.
+          legends and chatting with my friends.
         </Paragraph>
 
         <Box align="left" my={4}>
