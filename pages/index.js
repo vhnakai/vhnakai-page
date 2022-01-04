@@ -40,7 +40,7 @@ const Page = () => {
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/umiko.gif"
+            src="/images/sorriso.jpeg"
             alt="Profile image"
           />
         </Box>
