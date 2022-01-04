@@ -12,7 +12,7 @@ import {
   Icon,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, ChatIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, ChatIcon, StarIcon } from '@chakra-ui/icons'
 
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -59,9 +59,9 @@ const Page = () => {
         </Paragraph>
 
         <Box align="left" my={4}>
-          <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+          <NextLink href="https://github.com/vhnakai">
+            <Button rightIcon={<StarIcon />} colorScheme="teal">
+              My Github
             </Button>
           </NextLink>
         </Box>
@@ -79,19 +79,12 @@ const Page = () => {
         </Paragraph>
 
         <Box align="left" my={4}>
-          <NextLink href="/">
+          <NextLink href="https://twitch.tv/vhnakai">
             <Button rightIcon={<ChatIcon />} colorScheme="teal">
               My Twitch
             </Button>
           </NextLink>
         </Box>
-      </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>Anime, Vocaloid, J-POP & V-Tubers</Paragraph>
       </Section>
     </Container>
   )
