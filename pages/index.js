@@ -59,11 +59,11 @@ const Page = () => {
         </Paragraph>
 
         <Box align="left" my={4}>
-          <NextLink href="https://github.com/vhnakai">
+          <a href="https://github.com/vhnakai">
             <Button rightIcon={<StarIcon />} colorScheme="teal">
               My Github
             </Button>
-          </NextLink>
+          </a>
         </Box>
       </Section>
 
@@ -79,11 +79,11 @@ const Page = () => {
         </Paragraph>
 
         <Box align="left" my={4}>
-          <NextLink href="https://twitch.tv/vhnakai">
+          <a href="https://twitch.tv/vhnakai">
             <Button rightIcon={<ChatIcon />} colorScheme="teal">
               My Twitch
             </Button>
-          </NextLink>
+          </a>
         </Box>
       </Section>
     </Container>
