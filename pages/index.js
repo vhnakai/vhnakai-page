@@ -46,12 +46,12 @@ const Page = () => {
         </Box>
       </Box>
 
-      <Section delay={0.1}>
-        <Heading as="h1" variant="section-title">
+      <Section delay={0.1} my={5}>
+        <Heading as="h1" variant="section-title" mb={4}>
           Work
         </Heading>
 
-        <Paragraph>
+        <Paragraph mb={4}>
           Vitor is a FullStack Developer passionate about the web and mobile
           development. He has experience with projects using JavaScript /
           Typescript, NodeJS, ReactJS, and React Native. Currently, he is based
@@ -68,14 +68,14 @@ const Page = () => {
       </Section>
 
       <Section delay={0.2}>
-        <Heading as="h1" variant="section-title">
+        <Heading as="h1" variant="section-title" mb={4}>
           What doing Vitor recently?
         </Heading>
 
-        <Paragraph>
-          He was working on full-time job as Developer in JN Moura. But recently
-          he started to stream at night on Twitch, playing League of legends and
-          New Word.
+        <Paragraph mb={4}>
+          He's been working on full-time job as Developer in JN Moura. But
+          recently he started to stream at night on Twitch, playing League of
+          legends and New Word.
         </Paragraph>
 
         <Box align="left" my={4}>
