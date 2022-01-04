@@ -59,7 +59,7 @@ const Page = () => {
         </Paragraph>
 
         <Box align="left" my={4}>
-          <a href="https://github.com/vhnakai">
+          <a target="_blank" href="https://github.com/vhnakai">
             <Button rightIcon={<StarIcon />} colorScheme="teal">
               My Github
             </Button>
@@ -79,7 +79,7 @@ const Page = () => {
         </Paragraph>
 
         <Box align="left" my={4}>
-          <a href="https://twitch.tv/vhnakai">
+          <a target="_blank" href="https://twitch.tv/vhnakai">
             <Button rightIcon={<ChatIcon />} colorScheme="teal">
               My Twitch
             </Button>
